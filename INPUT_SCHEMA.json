@@ -1,0 +1,16 @@
+{
+    "title": "Booking scraper input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "post_urls": {
+            "title": "post_urls",
+            "type": "array",
+            "description": "Select if you want to display debug logs.",
+            "editor": "requestListSources"
+        }
+    },
+    "required": [
+        "post_urls"
+    ]
+}
